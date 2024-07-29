@@ -18,7 +18,7 @@ class Solution:
         left = 1
         for i in range(len(nums)):
             output[i] *= left 
-            left *= nums[i] # update
+            left *= nums[i] #update
         right = 1
         for i in range(len(nums)-1, -1, -1):
             output[i] *= right
