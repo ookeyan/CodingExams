@@ -24,7 +24,7 @@ class Solution:
             output[i] *= right
             right *= nums[i] #update
         return output
-    
+
 def main():
     input = [1,2,3,4]
     s = Solution()

@@ -26,6 +26,8 @@ class Solution:
                 res+= len(set(s[start+1:end]))
         return res
 
+    def practice(self, s: str) -> int:
+
 def main():
     input = "aabca" 
     input2 = "adc"

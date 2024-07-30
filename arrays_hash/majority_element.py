@@ -1,4 +1,5 @@
 from typing import List
+from collections import Counter 
 #169
 
 class Solution:
@@ -33,12 +34,16 @@ class Solution:
                 candidate = n
             count += 1 if n ==candidate else -1
         return candidate
+    def counting(self, nums: List[int]) -> int:
+        print(Counter(nums))
+        
     
 def main():
     input = [2,2,1,1,1,2,2]
     s = Solution()
 
     print(s.majorityElement(input)) 
-    print(s.MooreVotingAlgo(input))        
+    print(s.MooreVotingAlgo(input))     
+    print(s.counting(input))   
 if __name__ == "__main__":
     main()
