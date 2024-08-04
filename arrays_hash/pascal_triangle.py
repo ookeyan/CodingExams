@@ -12,7 +12,7 @@ class Solution:
         for i in range (1, numRows -1):
             newRows[i] = prevRows[-1][i-1] + prevRows[-1][i]
         
-        prevRows.append(newRow)
+        prevRows.append(newRows)
         return prevRows  
 
     def dynamic(self, numRows: int) -> List[List[int]]:
@@ -39,7 +39,7 @@ class Solution:
             dummy_row = [0] + res[-1] + [0]
             row = []
 
-            for i in range(len(res[-1]) + 1):
+            for i in range(len(res[-1]) + 1): #include the [0] in the dummy row by saying +1
                 row.append(dummy_row[i] + dummy_row[i+1])
             res.append(row)
         

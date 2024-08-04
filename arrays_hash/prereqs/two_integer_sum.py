@@ -15,11 +15,12 @@ class Solution:
 
         # Build the hash table
         for i in range(n):
-            numMap[nums[i]] = i
+            numMap[nums[i]] = i #number: index
 
         # Find the complement
         for i in range(n):
             complement = target - nums[i]
+            # you may not use the same element twice. thus numMap[complement] != i
             if complement in numMap and numMap[complement] != i:
                 return [i, numMap[complement]]
 
@@ -27,7 +28,10 @@ class Solution:
 def main():
     nums , target = [3,4,5,6], 7
     nums1 , target1 = [4,5,6], 10
-    nums2 , target2 = [5,5], 10
+    # the second 5 at index 1 overwrites the first 5 at index 0. The complement 5 is
+    # found in numMap at index 1 (which is different from i = 0).Therefore, the function 
+    # returns [0, 1]
+    nums2 , target2 = [5,5], 10 
 
     s = Solution()
     print(s.twoSum(nums, target))

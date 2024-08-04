@@ -11,7 +11,7 @@ class Solution:
         return False
     
     def containsDuplicate1(self, nums: List[int]) -> bool:
-        return len(set(nums)) != len(nums)
+        return len(set(nums)) != len(nums) # true if duplicate false if equal
 
 def main():
     input = [1, 2, 3, 3]
