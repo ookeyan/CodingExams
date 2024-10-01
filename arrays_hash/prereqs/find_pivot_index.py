@@ -1,6 +1,6 @@
 from typing import List
-
 #Leetcode 724
+
 class Solution:
     def pivotIndex(self, nums):
         leftSum, rightSum = 0, sum(nums)

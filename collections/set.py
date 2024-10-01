@@ -13,7 +13,7 @@ fruits2 = {"apple", "orange", "kiwi", "pear", "grape", "cherry"}
 # fruits.clear() #delete everything
 # fruits.discard("pear") #the same as remove
 # b = fruits.difference(fruits2) # return difference in set 1
-# fruits.difference_update(fruits2) # update THE difference in set 1 to original
+# fruits.difference_update(fruits2) # update THE difference in set 2 to original
 # b = fruits.intersection(fruits2) # get everthing IN COMMON from both sets
 # b = fruits.symmetric_difference(fruits2) # get ALL UNCOMMON THINGS from both sets
 # fruits.symmetric_difference_update(fruits2) #update to ALL UNCOMMON THINGS from both sets

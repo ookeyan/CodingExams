@@ -1,12 +1,13 @@
 from typing import List
 #Leetcode 1929
+
 class Solution:
     def getConcatenation(self, nums: List[int]) -> List[int]:
         n = len(nums)
         result = [0] * (2 * n)  # Create a new list of size 2n
         for i in range(n):
-            result[i] = nums[i]      # Copy the first part
-            result[i + n] = nums[i]  # Copy the second part
+            result[i] = nums[i]      # Copy to first part
+            result[i + n] = nums[i]  # Copy to second part
         return result
 
     def getConcatenation1(self, nums: List[int]) -> List[int]:

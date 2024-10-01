@@ -6,11 +6,10 @@
 # Example 2: Input: nums = [-1,1,0,-3,3] Output: [0,0,9,0,0]
 # Constraints: 2 <= nums.length <= 105  and -30 <= nums[i] <= 30
 # The product of any prefix or suffix of nums is guaranteed to fit in a 32-bit integer.
-###
+
 
 from typing import List
-
-#238
+#Letcode 238
 
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:

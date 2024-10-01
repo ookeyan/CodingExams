@@ -28,6 +28,7 @@ class Solution:
 def main():
     nums , target = [3,4,5,6], 7
     nums1 , target1 = [4,5,6], 10
+    
     # the second 5 at index 1 overwrites the first 5 at index 0. The complement 5 is
     # found in numMap at index 1 (which is different from i = 0).Therefore, the function 
     # returns [0, 1]

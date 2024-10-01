@@ -1,6 +1,7 @@
 # list: ordered and changeable duplicates are OK
 
 fruits = ["apple", "orange", "banana", "pear", "grape", "peach"]
+word = "apple"
 # print(fruits[1]) #index
 # print(fruits[1:4:]) #range EXCLUSIVE
 # print(fruits[::2]) # skip x units from the start
