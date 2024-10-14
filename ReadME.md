@@ -16,3 +16,6 @@ NeetCode.io RoadMap:
 arrays and hashing:
 https://www.w3schools.com/dsa/dsa_data_arrays.php 
 https://leetcode.com/studyplan/leetcode-75/
+
+
+https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions
