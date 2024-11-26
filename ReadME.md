@@ -19,3 +19,5 @@ https://leetcode.com/studyplan/leetcode-75/
 
 
 https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions
+https://github.com/johnmee/codility
+https://github.com/Mickey0521/Codility-Python 
